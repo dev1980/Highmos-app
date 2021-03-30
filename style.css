@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --heading-font: 'Playfair Display', serif; 
+    --primary-color: #fe5383;
+}
+*{
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+body{
+    margin: 0;
+    color: #222;
+    font-family:'Poppins', sans-serif;
+}
+
+.hero-area {
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("./images/image-1.png");
+    color: white;
+}
