@@ -15,7 +15,11 @@ body{
     color: #222;
     font-family:'Poppins', sans-serif;
 }
-
+.container {
+    max-width: 1200px;
+    padding: 24px;
+    margin: 0 auto;
+}
 .hero-area {
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("./images/image-1.png");
     color: white;
