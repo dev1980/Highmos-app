@@ -2,7 +2,7 @@
 
 :root {
     --heading-font: 'Playfair Display', serif; 
-    --primary-color: #fe5383;
+    --primary-color: #ff5031;
 }
 *{
     box-sizing: border-box;
@@ -23,4 +23,26 @@ body{
 .hero-area {
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("./images/image-1.png");
     color: white;
+   
+}
+
+.hero-area header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reservation {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.reservation i {
+    margin-right: 8px;
 }
